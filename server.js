@@ -36,7 +36,7 @@ function listening() {
 // Respond with JS object when a GET request is made to the homepage
 app.get("/all", function (req, res) {
   res.send(projectData);
-  projectData=[];
+  projectData = [];
 });
 
 // POST method route
